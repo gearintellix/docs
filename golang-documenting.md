@@ -33,7 +33,7 @@ var <name> string
 //
 // **@Returns:** [ `$1`: string ]
 func Int64ToString(v int64) string {
-	return strconv.FormatInt(v, 10)
+  return strconv.FormatInt(v, 10)
 }
 
 // BoolToString : Convert Bool to String
@@ -42,7 +42,7 @@ func Int64ToString(v int64) string {
 //
 // **@Returns:** [ `res`: string ]
 func BoolToString(v bool) (res string) {
-	res = strconv.FormatBool(v)
+  res = strconv.FormatBool(v)
   return
 }
 
