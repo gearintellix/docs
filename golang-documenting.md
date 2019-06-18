@@ -4,6 +4,14 @@ i still didn't know how making godoc standard formating
 
 but this format was pretty clean and readable.
 
+# Preview
+
+this example tooltip function
+
+![Image](https://raw.githubusercontent.com/gearintellix/docs/master/assets/Screen%20Shot%202019-06-18%20at%2014.24.17.png)
+
+# Script
+
 ## 1. Function
 
 ```go
