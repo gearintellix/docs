@@ -26,11 +26,11 @@ func () <function_name> (...) { }
 // ============[ or a simpler one ]============
 
 
-// <function_name> : <function_description>
+// <function_description_with_contains_name>
 //
-// @Params: [ `<parameters_name>`: <parameter_description>; ...n ]
+// **@Params:** [ `<parameters_name>`: <parameter_description>; ...n ]
 //
-// @Returns: [ `<return_key>`: <return_description>; ...n ]
+// **@Returns:** [ `<return_key>`: <return_description>; ...n ]
 func () <function_name> (...) { }
 ```
 
@@ -38,6 +38,13 @@ func () <function_name> (...) { }
 
 ```go
 // <name> : <description>
+var <name> string
+
+
+// ============[ or a simpler one ]============
+
+
+// <description_with_contain_name>
 var <name> string
 ```
 
@@ -55,7 +62,7 @@ func Int64ToString(v int64) string {
   return strconv.FormatInt(v, 10)
 }
 
-// BoolToString : Convert Bool to String
+// BoolToString to casting type Bool to String
 //
 // **@Params:** [ `v`: value ]
 //
@@ -95,7 +102,7 @@ type Model struct {
 // Models : Slice Model struct
 type Models []Model
 
-// Users : Users lists
+// Users lists
 var Users Models
 
 // IModel : Model Interface
@@ -126,5 +133,5 @@ const (
 )
 ```
 
-references:
+References:
  - https://blog.golang.org/godoc-documenting-go-code
