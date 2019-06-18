@@ -1,7 +1,8 @@
 In golang you can documenting your public function, variable, constant, etc
 
 i still didn't know how making godoc standard formating
-but this formating was clean and readable.
+
+but this format was pretty clean and readable.
 
 ## 1. Function
 
