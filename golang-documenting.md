@@ -6,7 +6,7 @@ but this format was pretty clean and readable.
 
 # Preview
 
-this example tooltip function
+preview tooltips showing on visual studio code
 
 ![Image](https://raw.githubusercontent.com/gearintellix/docs/master/assets/Screen%20Shot%202019-06-18%20at%2014.24.17.png)
 
@@ -20,6 +20,17 @@ this example tooltip function
 // **@Params:** [ `<parameters_name>`: <parameter_description>; ...n ]
 //
 // **@Returns:** [ `<return_key>`: <return_description>; ...n ]
+func () <function_name> (...) { }
+
+
+// ============[ or a simpler one ]============
+
+
+// <function_name> : <function_description>
+//
+// @Params: [ `<parameters_name>`: <parameter_description>; ...n ]
+//
+// @Returns: [ `<return_key>`: <return_description>; ...n ]
 func () <function_name> (...) { }
 ```
 
